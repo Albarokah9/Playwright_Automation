@@ -2,13 +2,23 @@
   "name": "playwright_automation",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "test:headless": "npx playwright test --headless",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "test:report": "npx playwright show-report",
+    "test:chrome": "npx playwright test --project=chromium",
+    "test:firefox": "npx playwright test --project=firefox",
+    "test:webkit": "npx playwright test --project=webkit"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Albarokah9/Playwright_Automation.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Albarokah Rifansah",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Albarokah9/Playwright_Automation/issues"
