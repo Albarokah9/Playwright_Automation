@@ -1,0 +1,22 @@
+{
+  "name": "playwright_automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Albarokah9/Playwright_Automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Albarokah9/Playwright_Automation/issues"
+  },
+  "homepage": "https://github.com/Albarokah9/Playwright_Automation#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.0.14"
+  }
+}
